@@ -1,9 +1,3 @@
-/*RFID Door Lock code
-* Electronics Simplified 
-* http://electronicssimplified.tech/
-*/
-
-
 #include <LiquidCrystal_I2C.h>
 #include <SPI.h>
 #include <MFRC522.h>
