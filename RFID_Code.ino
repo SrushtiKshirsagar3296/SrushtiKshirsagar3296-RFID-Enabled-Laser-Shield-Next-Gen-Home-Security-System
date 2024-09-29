@@ -4,7 +4,7 @@
 
 #define SS_PIN 10
 #define RST_PIN 9
-String UID ="83 AF C8 02";
+String UID ="4C CA 50 49";
 byte lock = 0;
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
