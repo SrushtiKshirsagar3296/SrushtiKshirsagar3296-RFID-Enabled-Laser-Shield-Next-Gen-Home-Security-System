@@ -23,8 +23,7 @@ void loop() {
 lcd.setCursor(0, 0);
 lcd.print("Tap Your Card");
 
-if ( ! rfid.PICC_IsNewCardPresent())
-return;
+
 if ( ! rfid.PICC_ReadCardSerial())
 return;
 
