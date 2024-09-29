@@ -31,7 +31,7 @@ return;
 lcd.clear();
 lcd.setCursor(0, 0);
 lcd.print("Scanning");
-Serial.print("NUID tag is :");
+Serial.print("UID tag is :");
 String ID = "";
 for (byte i = 0; i < rfid.uid.size; i++) {
 lcd.print(".");
